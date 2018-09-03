@@ -1,6 +1,6 @@
 # 批量删除微博记录  
 
-##### `环境：PC端chrome浏览器，别的没试过`  
+##### `环境：PC端chrome浏览器，其他浏览器应该也可以，没试过`  
 #### 使用方法：  
 1、chrome下登录并打开微博主页  
 2、按下F12键，切换至“Console”栏  
@@ -12,10 +12,10 @@
 
 对应参数：  
 /**  
-  * @param{String}all 全部内容 默认  
-  * @param{String}originalContentDrop 原创内容  
-  * @param{String}forwardContentDrop 转发内容  
-  */  
+ \* @param{String}all 全部内容 默认  
+ \* @param{String}originalContentDrop 原创内容  
+ \* @param{String}forwardContentDrop 转发内容  
+ */  
  
 3、逻辑是从前往后删的，所以应在微博的第一页开始操作  
 4、正常来说都能正常用，不排除其他账户结构不一致或环境不同而导致无法批量删除  
