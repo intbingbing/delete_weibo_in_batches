@@ -12,17 +12,17 @@
 
 对应参数：  
 /**  
- * @param{String}all 全部内容 默认  
- * @param{String}originalContentDrop 原创内容  
- * @param{String}forwardContentDrop 转发内容  
- */  
+  * @param{String}all 全部内容 默认  
+  * @param{String}originalContentDrop 原创内容  
+  * @param{String}forwardContentDrop 转发内容  
+  */  
  
 3、逻辑是从前往后删的，所以应在微博的第一页开始操作  
 4、正常来说都能正常用，不排除其他账户结构不一致或环境不同而导致无法批量删除  
 5、仅供学习交流，谨慎删除  
 
 #### End:  
-自己试了下还算正常。实现在main.js里，单纯的用jQuery操作DOM click事件，后期微博稍稍改下结构应该就失效了。如果有用欢迎点星。  
+自己试了下还算正常。实现在main.js里，单纯的用jQuery操作DOM click事件，后期微博稍稍改下结构应该就失效了。
 
 #### 如图  
 ![](/screen/example.png "界面")  
