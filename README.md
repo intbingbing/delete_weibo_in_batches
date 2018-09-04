@@ -12,9 +12,9 @@
 2、默认删除全部内容，还有“只删除转发内容”和“只删除原创内容”可选择，更改粘贴内容最后一行的main(all)即可，  
 对应参数：  
 /**  
- * @param{String}all 全部内容 默认  
- * @param{String}originalContentDrop 原创内容  
- * @param{String}forwardContentDrop 转发内容  
+ \* @param{String}all 全部内容 默认  
+ \* @param{String}originalContentDrop 原创内容  
+ \* @param{String}forwardContentDrop 转发内容  
  */  
 3、随时可以刷新或关闭网页退出删除
 4、仅供学习交流，谨慎删除  
