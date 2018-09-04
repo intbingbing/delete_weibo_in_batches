@@ -16,7 +16,7 @@
  \* @param{String}originalContentDrop 原创内容  
  \* @param{String}forwardContentDrop 转发内容  
  */  
-3、随时可以刷新或关闭网页退出删除 
+3、随时可以刷新或关闭网页退出删除  
 4、仅供学习交流，谨慎删除  
 
 #### End:  
