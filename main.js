@@ -1,5 +1,5 @@
 /**
- * Author: intbingbing
+ * by intbingbing
  * github: https://github.com/intbingbing/delete_weibo_in_batches
  */
 //引入jquery
@@ -59,13 +59,13 @@ const deleteWeiBo = async scope => {
     }
 
     if ($(prevPageSet).length === 0) { //判断不存在上一页按钮
-        await delayLastPage() //跳转尾页bing
+        await delayLastPage() //跳转尾页
         arr = $(scope)
     } else {
         arr = $(scope)
     }
 
-    if ($(prevPageSet).length === 1 || $(nextPageSet).length === 1) { //判断不是唯一一页bing
+    if ($(prevPageSet).length === 1 || $(nextPageSet).length === 1) { //判断不是唯一一页
         arr.splice(arr.length-1, 1)
     }
 
